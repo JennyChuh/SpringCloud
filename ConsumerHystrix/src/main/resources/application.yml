@@ -1,0 +1,14 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    server-url:
+      default-zone: http://localhost:8761/eureka
+    register-with-eureka: false
+ribbon:
+  ReadTimeout: 5000
+  ConnectionTimeout: 5000
+feign:
+  breaker:
+    enabled: true

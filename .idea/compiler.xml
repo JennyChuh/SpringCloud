@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ConsumerHystrix" />
+        <module name="PaymentHystrix" />
+        <module name="Feign" />
+        <module name="Eureka01" />
+        <module name="payment" />
+        <module name="HystrixDashboard" />
+        <module name="consumer" />
+        <module name="payment02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="payment (1)" target="1.8" />
+      <module name="payment (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConsumerHystrix" options="-parameters" />
+      <module name="Eureka01" options="-parameters" />
+      <module name="Feign" options="-parameters" />
+      <module name="HystrixDashboard" options="-parameters" />
+      <module name="PaymentHystrix" options="-parameters" />
+      <module name="SpringCloud" options="" />
+      <module name="consumer" options="-parameters" />
+      <module name="payment" options="-parameters" />
+      <module name="payment (1)" options="-parameters" />
+      <module name="payment (2)" options="-parameters" />
+      <module name="payment02" options="-parameters" />
+    </option>
+  </component>
+</project>
